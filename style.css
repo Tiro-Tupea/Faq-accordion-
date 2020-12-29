@@ -1,0 +1,147 @@
+/* General */
+* {
+    box-sizing: border-box;
+    
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    background: linear-gradient( hsl(273, 75%, 66%), hsl(240, 73%, 65%) );
+    
+    color: hsl(238, 29%, 16%);
+}
+
+h1 {
+    font-weight: 700;
+    color: hsl(237, 12%, 33%);
+}
+
+/* helpers */
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main */
+
+.wrapper {
+      margin: 10px;
+}
+
+/* Image Section */
+
+.main {
+    width: 950px;
+    height: 510px;
+    background-color: #ffff;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.faq-img {
+    width: 50%;
+}
+
+
+
+#img-1 {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    top: 73vh;
+    left: -10.4vw;
+
+    /*max-width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 25vh;
+    left: 11vw;*/
+}
+
+#img-2 {
+    position: relative;
+    z-index: 0;
+    bottom: 40vh;
+    left: -49vw;
+    
+    /*position: absolute;
+    z-index: 0;
+    bottom: 1vh;
+    left: -23vw;
+    max-width: 100%;*/
+}
+
+#img-3 {
+    width: 15%;
+    position: absolute;
+    z-index: 3;
+    bottom: 28vh;
+    left: 11vh;
+
+    /*max-width: 100%;
+    position: absolute;
+    z-index: 3;
+    bottom: 37vh;
+    left: 19vh;*/
+}
+
+/* FAQ section */
+
+.faq-questions {
+    width: 40%;
+    height: 85%;
+    display: block;
+    text-align: left;
+}
+
+
+.icon i {
+    float: right;
+    color: hsl(14, 88%, 65%)
+}
+
+.fas:hover {
+    transform: rotate(0.5turn);
+}
+
+.rotate {
+    transform: rotate(0.5turn);
+}
+
+
+.Q {
+    height: 40px;
+    color: hsl(240, 6%, 50%);  
+    border-bottom: solid 1px;
+    cursor: pointer;
+    transition: 
+        height 0.2s ;
+}
+
+.Q .question:hover {
+    color: hsl(237, 12%, 33%);
+    font-weight: 700;
+}
+
+.answers {
+    font-size: 12px;
+    transform: translateX(120%);
+    transition: 0.1s;
+}
+
+.active {
+    transform: translateX(0);
+}
+
+.show {
+    color: hsl(237, 12%, 33%);
+    font-weight: 700;
+    height: 70px;
+}
+
+
+

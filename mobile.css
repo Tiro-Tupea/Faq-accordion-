@@ -1,0 +1,55 @@
+@media screen and (max-width: 375px) {
+
+    .main {
+      margin: 0 15px 0 15px;
+      height: 560px;
+    }
+
+    #img-1 {
+      width: 250px;
+      height: 200px;
+      position: absolute;
+      top: 15px;
+      left: 60px;
+    } 
+
+    #img-2 {
+      width: 250px;
+      height: 250px;
+      position: absolute;
+      left: 60px;
+      top: 0px;
+    }
+
+    #img-3 {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top: 90px;
+      left: 55px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .faq-questions {
+      font-size: 15px;
+      height: 55%;
+      width: 1200vw;
+      
+      margin: 0 10px 0 10px;
+    }
+
+    .fas {
+      margin-left: 10px;
+    }
+
+    .show {
+      color: hsl(237, 12%, 33%);
+      font-weight: 700;
+      height: 90px;
+  }
+
+  
+}
